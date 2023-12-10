@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>John Palaganas</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/41618cfc34.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+           <nav>
+               <t1>John Palaganas</t1>
+   
+           <ul class="first-ul">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="projects.html">Portfolio</a></li>
+               <li><a href="extra.html">Contact</a></li>
+           </ul>
+       </nav>
+       <div class="header-text">
+           <p>IT Administrator</p>
+           <h1>Hi, I'm <span>John Palaganas</span></h1>
+           <div class="moving">
+               <h2> <span class="auto-type"></span></h2>
+             </div>
+         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+         <script>
+           var typed = new Typed(".auto-type", {
+             strings: ["Full-Stack Web Developer", "iOs Mobile Developer"],
+             typeSpeed: 150,
+             backSpeed: 80,
+             loop: true
+           })
+         </script>
+       </div>
+   </div>
+</div><br>
+
+<!-- ---------------contact------------------- -->
+<br>
+<div id="contact">
+   <div class="container">
+       <div class="row">
+           <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fas fa-paper-plane"></i>palaganasjohnashley@gmail.com</p>
+               <p><i class="fas fa-phone-square-alt"></i>(306)316-9171</p>
+               <div class="social-icons">
+                   <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                   <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+                   <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                   <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+           </div>
+               <a href="IT Admin.pdf" download class="btn btn2">Download CV</a>
+       </div>
+       <div class="coltact-right"></div>
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+         </div>   
+    </div>
+ </div>
+ <div class="copyright">
+      <p>Personal Project Website. Made by </i>John Palaganas</p>
+ </div>
+</div>
+<script>
+
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+
+   function opentab(tabname){
+       for(tablink of tablinks){
+           tablink.classList.remove("active-link");
+       }
+       for(tabcontent of tabcontents){
+           tabcontent.classList.remove("active-tab");
+       }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab")
+   }
+
+</script>
+
+
+</body>
+</html>
