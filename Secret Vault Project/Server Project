@@ -1,0 +1,8 @@
+# This project has taught me how to use the NodeJS by implementing the right command in Git. 
+ - I implemented a server with such as applying bodyParser to collect the data that it needed to apply the right port on the server.
+
+## What is project about
+* Secret Project is just like a normal log-in when user is trying to get in to the particular software that is live.
+* Let's say user is working for the company that they have specific application they need to use that requires to do their job.
+* For example, the replit app, this won't let the user use the web-app if the user didn't get his credentials right. So for them to be able to use the replit they need to sign-up nor,
+  remember their credential so they can get in. 
