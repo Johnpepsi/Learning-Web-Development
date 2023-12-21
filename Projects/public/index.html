@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Secret Vault</title>
+</head>
+<style>
+  body {
+    background-color: beige;
+    text-align: center;
+    margin-top: 150px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .moving-object {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    animation: moveObject 10s linear infinite alternate;
+}
+
+@keyframes moveObject {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: calc(100% - 50px);
+    }
+}
+
+</style>
+
+<body>
+  <h1>Secret door</h1>
+  <form action="/check" method="POST">
+    <label for="password">Enter Password:</label>
+    <input type="text" id="password" name="password" required>
+    <input type="submit" value="Submit">
+  </form>
+
+  <div class="moving-object"></div>
+</body>
+
+</html>
