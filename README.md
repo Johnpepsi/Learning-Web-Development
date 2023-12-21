@@ -1,7 +1,7 @@
 # Learning-Web-Development
 This repository contains all the files, notes and programs that I created while taking Angela Yu's "Complete 2022 Web Development Bootcamp" Course on Udemy. I have also used various other resources to learn web devlopment and have combined all my learnings into this repository.
 
-This repo focuses on both frontend and backend Web Development. I have also added some of my code and notes to this repository along with notes that are provided by the courses that I have taken down the road. This repo also contains questions and challenges that have helped me to strengthen my concepts.
+This repo focuses on both frontend and backend Web Development. I have also added some of my code and notes to this repository along with notes that are provided by the courses that I have taken down the road. This repo also contains questions and challenges that have helped me to strengthen web-development concepts.
 
 ## Link through all my notes along the course
 https://www.notion.so/Full-Stack-Web-Development-Course-ebb44a7740624f3fbc89f14401b3583e?pvs=4
