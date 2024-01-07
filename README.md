@@ -3,5 +3,14 @@ This repository contains all the files, notes and programs that I created while 
 
 This repo focuses on both frontend and backend Web Development. I have also added some of my code and notes to this repository along with notes that are provided by the courses that I have taken down the road. This repo also contains questions and challenges that have helped me to strengthen web-development concepts.
 
-## Link through all my notes along the course
-https://www.notion.so/Full-Stack-Web-Development-Course-ebb44a7740624f3fbc89f14401b3583e?pvs=4
+## Tools that is used in this course
+- EJS
+- React.JS
+- Authentication and Security/ Encryption
+- HTTPS Request used Postman GET, PUT, POST, PATCH, DELETE.
+- jQuery and DOM Manipulation
+- Unix Command Line, Bash Scripting
+- APIs
+- Express with Node.JS
+- SQL, PostgreSQL
+- Web3
